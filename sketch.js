@@ -4,9 +4,9 @@ var database, foodS, foodStock, feed, lastFed, fedTime, addFood, foodObj;
 
 function preload(){
 	//load images here
-  dogImage = loadImage("images/dogImg.png");
-  happydogImage = loadImage("images/dogImg1.png");
-  milkImage = loadImage("images/Milk.png");
+  dogImage = loadImage("dogImg.png");
+  happydogImage = loadImage("dogImg1.png");
+  milkImage = loadImage("Milk.png");
 }
 
 function setup() {
